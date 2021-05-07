@@ -846,6 +846,7 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 	/**
 	 * Template method which can be overridden to add servlet-specific refresh work.
 	 * Called after successful context refresh.
+
 	 * <p>This implementation is empty.
 	 * @param context the current WebApplicationContext
 	 * @see #refresh()
